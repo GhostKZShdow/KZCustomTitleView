@@ -14,6 +14,7 @@
 		4FDA85281D8FC56500E5CC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA85271D8FC56500E5CC9F /* Assets.xcassets */; };
 		4FDA852B1D8FC56500E5CC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA85291D8FC56500E5CC9F /* LaunchScreen.storyboard */; };
 		4FDA85341D8FC57300E5CC9F /* KZCustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */; };
+		4FDA85371D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA85361D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4FDA852C1D8FC56500E5CC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FDA85321D8FC57300E5CC9F /* KZCustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCustomTitleView.h; sourceTree = "<group>"; };
 		4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZCustomTitleView.m; sourceTree = "<group>"; };
+		4FDA85351D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+StatusBarStyle.h"; sourceTree = "<group>"; };
+		4FDA85361D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+StatusBarStyle.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				4FDA85221D8FC56500E5CC9F /* ViewController.m */,
 				4FDA85321D8FC57300E5CC9F /* KZCustomTitleView.h */,
 				4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */,
+				4FDA85351D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.h */,
+				4FDA85361D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.m */,
 				4FDA85241D8FC56500E5CC9F /* Main.storyboard */,
 				4FDA85271D8FC56500E5CC9F /* Assets.xcassets */,
 				4FDA85291D8FC56500E5CC9F /* LaunchScreen.storyboard */,
@@ -158,6 +163,7 @@
 				4FDA85201D8FC56500E5CC9F /* AppDelegate.m in Sources */,
 				4FDA851D1D8FC56500E5CC9F /* main.m in Sources */,
 				4FDA85341D8FC57300E5CC9F /* KZCustomTitleView.m in Sources */,
+				4FDA85371D8FC70000E5CC9F /* UINavigationController+StatusBarStyle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +312,7 @@
 				4FDA85311D8FC56500E5CC9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
