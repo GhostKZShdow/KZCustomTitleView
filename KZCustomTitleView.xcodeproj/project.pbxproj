@@ -13,6 +13,7 @@
 		4FDA85261D8FC56500E5CC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA85241D8FC56500E5CC9F /* Main.storyboard */; };
 		4FDA85281D8FC56500E5CC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA85271D8FC56500E5CC9F /* Assets.xcassets */; };
 		4FDA852B1D8FC56500E5CC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4FDA85291D8FC56500E5CC9F /* LaunchScreen.storyboard */; };
+		4FDA85341D8FC57300E5CC9F /* KZCustomTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4FDA85271D8FC56500E5CC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FDA852A1D8FC56500E5CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4FDA852C1D8FC56500E5CC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FDA85321D8FC57300E5CC9F /* KZCustomTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KZCustomTitleView.h; sourceTree = "<group>"; };
+		4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KZCustomTitleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				4FDA851F1D8FC56500E5CC9F /* AppDelegate.m */,
 				4FDA85211D8FC56500E5CC9F /* ViewController.h */,
 				4FDA85221D8FC56500E5CC9F /* ViewController.m */,
+				4FDA85321D8FC57300E5CC9F /* KZCustomTitleView.h */,
+				4FDA85331D8FC57300E5CC9F /* KZCustomTitleView.m */,
 				4FDA85241D8FC56500E5CC9F /* Main.storyboard */,
 				4FDA85271D8FC56500E5CC9F /* Assets.xcassets */,
 				4FDA85291D8FC56500E5CC9F /* LaunchScreen.storyboard */,
@@ -152,6 +157,7 @@
 				4FDA85231D8FC56500E5CC9F /* ViewController.m in Sources */,
 				4FDA85201D8FC56500E5CC9F /* AppDelegate.m in Sources */,
 				4FDA851D1D8FC56500E5CC9F /* main.m in Sources */,
+				4FDA85341D8FC57300E5CC9F /* KZCustomTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
